@@ -1,0 +1,39 @@
+{
+  "name": "react-rollup-boilerplate",
+  "description": "boilerplate for react components using rollup",
+  "version": "0.0.1",
+  "main": "dist/react-rollup-boilerplate.cjs.js",
+  "module": "dist/react-rollup-boilerplate.esm.js",
+  "scripts": {
+    "build": "cross-env BABEL_ENV=build rollup -c"
+  },
+  "files": [
+    "/dist",
+    "/src"
+  ],
+  "peerDependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "core-js": "^3.3.3",
+    "cross-env": "^6.0.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "rollup": "^1.10.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.1.2"
+  },
+  "author": "puiutucutu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/puiutucutu/react-rollup-boilerplate.git"
+  }
+}

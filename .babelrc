@@ -1,0 +1,23 @@
+{
+  "env": {
+    "test": {
+      "presets": ["@babel/preset-env"]
+    },
+    "build": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "targets": {
+              "node": "11.6.0"
+            },
+            "modules": false,
+            "useBuiltIns": "usage",
+            "corejs": "3.2"
+          }
+        ],
+        "@babel/preset-react"
+      ]
+    }
+  }
+}
