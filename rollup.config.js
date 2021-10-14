@@ -7,6 +7,7 @@ import pkg from "./package.json";
 
 const babelPlugin = [
   babel({
+    babelHelpers: "bundled",
     exclude: "node_modules/**", // only transpile source code of this project
   }),
 ];
